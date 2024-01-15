@@ -15,7 +15,24 @@
   font-size: 1rem;
   line-height: 1.6rem;
 }
+.head-text {
+  font-size: 2.5rem;
+  color: #131318;
+  font-weight: 800;
+}
 
+.primary-btn {
+  background-color: #ff5400;
+  color: #fff;
+  font-weight: 800;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
 /* header section style */
 
 header {
@@ -139,4 +156,27 @@ header {
 .find p {
   font-weight: 400;
   font-size: 1rem;
+}
+
+.tours {
+  max-width: 1170px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tour-content {
+  width: 50%;
+}
+
+.tour-des,
+.tour-lst {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: 20px;
+}
+.tour-img img {
+  width: 100%;
 }
