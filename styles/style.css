@@ -25,7 +25,7 @@ header {
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -58,4 +58,31 @@ header {
 #special-text-anchor {
   color: #ff5400;
   font-weight: 700;
+}
+
+/* banner section style */
+
+.banner {
+  background-image: url(../Images/banner-bg.png);
+  min-height: 500px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.banner h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+#banner-description {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+  max-width: 675px;
+  text-align: center;
 }
