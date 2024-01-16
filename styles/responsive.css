@@ -2,7 +2,8 @@
   .nav,
   .banner,
   .banner-search,
-  .tours {
+  .tours,
+  .newsletter {
     flex-direction: column;
   }
   .nav .nav-menu {
@@ -29,6 +30,10 @@
     padding: 0px 10px;
   }
   /* destination grid */
+  .destination-grid p {
+    margin: 20px 0;
+    width: 90%;
+  }
   .destination-grid {
     display: flex;
     flex-direction: column;
@@ -41,5 +46,36 @@
   .para-text {
     margin-left: 0;
     margin-right: 0;
+  }
+  /* news letter */
+  .newsletter .newsletter-form {
+    width: 80%;
+  }
+  .newsletter .newsletter-form input {
+    padding: 10px 20px;
+    margin: 20px 0;
+  }
+  .newsletter .newsletter-img {
+    width: 80%;
+  }
+  .newsletter .newsletter-img img {
+    max-width: 325px;
+    width: 100%;
+  }
+  .newsletter .newsletter-img-div {
+    left: 100px;
+    bottom: 50px;
+    max-width: 200px;
+    max-height: 70px;
+    padding: 8px 0px;
+    border-radius: 8px;
+    width: 70%;
+  }
+  .newsletter .newsletter-img-div h1 {
+    font-size: 1rem;
+  }
+
+  .newsletter .newsletter-img-div h4 {
+    font-size: 0.7rem;
   }
 }
