@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@400;700;800&display=swap");
 /* common shared style */
 
 * {
@@ -21,6 +20,7 @@
   font-size: 2.5rem;
   color: #131318;
   font-weight: 800;
+  margin-bottom: 24px;
 }
 
 .primary-btn {
@@ -48,7 +48,8 @@ header {
   align-items: center;
 }
 
-.nav .nav-title {
+.nav .nav-title,
+footer .footer-title {
   display: flex;
   gap: 16px;
   align-items: center;
@@ -240,14 +241,56 @@ header {
   grid-column: span 8;
 }
 
+/* why us section style for big device */
+
+.why-us {
+  max-width: 1170px;
+  margin: 100px auto;
+}
+
+.why-us-top {
+  text-align: center;
+  max-width: 625px;
+  margin: 20px auto;
+}
+/* card  */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  gap: 24px;
+}
+
+.card {
+  height: 285px;
+  border: 1px solid salmon;
+  grid-column: span 6;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.card-container .first {
+  background-color: #fbb5630d;
+  border: 1px solid #fbb56333;
+}
+
+.card-container .second {
+  background-color: #29cef60d;
+  border: 1px solid #29cef633;
+}
+
+.card-container .third {
+  background-color: #e944440d;
+  border: 1px solid #e9444433;
+  grid-column: 4 / span 6;
+}
+
 /* news letter section style main part */
 
 .newsletter {
   max-width: 1170px;
   margin: 100px auto;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 .newsletter .newsletter-form {
   width: 50%;
@@ -322,4 +365,37 @@ header {
 .newsletter .newsletter-img-div h4 {
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+/* footer */
+
+footer {
+  max-width: 1170px;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icon-div {
+  display: flex;
+  gap: 36px;
+  margin-top: 32px;
+}
+
+footer hr {
+  border: 1px solid #1313181a;
+  width: 50%;
+  margin: 50px 0;
+}
+
+.footer-icon-div i {
+  font-size: 1.5rem;
+}
+
+#copyright {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
 }
