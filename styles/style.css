@@ -291,6 +291,7 @@ footer .footer-title {
   max-width: 1170px;
   margin: 100px auto;
   display: flex;
+  align-items: center;
 }
 .newsletter .newsletter-form {
   width: 50%;
