@@ -66,7 +66,9 @@ footer .footer-title {
   display: flex;
   gap: 40px;
 }
-
+.nav .nav-ham {
+  display: none;
+}
 .nav .nav-menu a {
   text-decoration: none;
   text-transform: capitalize;

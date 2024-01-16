@@ -1,5 +1,10 @@
 @media screen and (max-width: 576px) {
-  .nav,
+  .nav .nav-ham {
+    display: inline;
+  }
+  .nav {
+    justify-content: space-around;
+  }
   .banner,
   .banner-search,
   .tours,
