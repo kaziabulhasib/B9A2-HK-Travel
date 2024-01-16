@@ -3,7 +3,7 @@
     display: inline;
   }
   .nav {
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .banner,
   .banner-search,
@@ -105,5 +105,119 @@
   }
   footer {
     width: 90%;
+  }
+}
+
+/* medium device  */
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+   
+    .nav .nav-ham {
+      display: inline;
+    }
+    .nav {
+      justify-content: space-around;
+    }
+    .banner,
+    .banner-search,
+    .tours,
+    .newsletter {
+      flex-direction: column;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .nav .nav-menu {
+      flex-direction: column;
+    }
+    .nav-menu a {
+      display: none;
+    }
+    .banner h1 {
+      font-size: 1.3rem;
+    }
+    #banner-description {
+      font-size: 0.8rem;
+      line-height: 1rem;
+    }
+
+    .head-text {
+      font-size: 1.25rem;
+    }
+    .banner,
+    .tour-img,
+    .banner-search {
+      width: 90%;
+      padding: 0px 10px;
+    }
+    /* destination grid */
+    .destination-grid p {
+      margin: 20px 0;
+      width: 90%;
+    }
+    .destination-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .box {
+      width: 305px;
+      max-height: 175px;
+    }
+    .para-text {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    /* why us section */
+
+    /* card  */
+    .card-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .card {
+      max-width: 335px;
+      height: 285px;
+      grid-column: span 11;
+      padding: 10px;
+      margin: 10px auto;
+    }
+    .card-container .third {
+      grid-column: span 11;
+    }
+    /* news letter */
+    .newsletter .newsletter-form {
+      width: 80%;
+      margin: 10px auto;
+    }
+    .newsletter .newsletter-form input {
+      padding: 10px 20px;
+      margin: 20px 0;
+    }
+    .newsletter .newsletter-img {
+      width: 80%;
+      margin: 10px auto;
+    }
+    .newsletter .newsletter-img img {
+      max-width: 325px;
+      width: 100%;
+    }
+    .newsletter .newsletter-img-div {
+      left: 100px;
+      bottom: 50px;
+      max-width: 200px;
+      max-height: 70px;
+      padding: 8px 0px;
+      border-radius: 8px;
+      width: 70%;
+    }
+    .newsletter .newsletter-img-div h1 {
+      font-size: 1rem;
+    }
+
+    .newsletter .newsletter-img-div h4 {
+      font-size: 0.7rem;
+    }
+    footer {
+      width: 90%;
+    }
   }
 }
