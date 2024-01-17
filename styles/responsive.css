@@ -8,7 +8,8 @@
   .banner,
   .banner-search,
   .tours,
-  .newsletter {
+  .newsletter,
+  .perfect-place {
     flex-direction: column;
     padding-left: 0;
     padding-right: 0;
@@ -105,7 +106,9 @@
   }
   footer {
     width: 90%;
+    max-width: fit-content;
   }
+
   /* this is Bonus section extra profile */
   .review-container {
     display: grid;
@@ -137,6 +140,16 @@
     margin: 10px auto;
   }
 
+  /* a simple perfect place */
+  .perfect-place {
+    width: 90%;
+  }
+  .perfect-place video {
+    max-width: 320px;
+  }
+  .perfect-place .text-content {
+    max-width: 320px;
+  }
   * {
     margin: 0;
     padding: 0;

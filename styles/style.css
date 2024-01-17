@@ -403,7 +403,7 @@ footer hr {
   font-size: 1rem;
 }
 
-/* extra section */
+/* extra section extra section extra section extra section */
 
 .customer-review {
   max-width: 1170px;
@@ -435,4 +435,26 @@ footer hr {
 
 .review p {
   text-align: center;
+}
+
+/* A Simple Perfect Place To Get Lost */
+
+.perfect-place {
+  display: flex;
+  max-width: 1170px;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.video-content {
+  position: relative;
+}
+
+.video-text {
+  position: absolute;
+  left: 20%;
+  bottom: 40%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
 }
