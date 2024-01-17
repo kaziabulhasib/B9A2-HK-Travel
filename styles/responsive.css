@@ -89,8 +89,8 @@
   }
   .newsletter .newsletter-img-div {
     left: 110px;
-    bottom: 65px;
-    max-width: 200px;
+    bottom: 50px;
+    max-width: 180px;
     max-height: 70px;
     padding: 8px 0px;
     border-radius: 8px;
@@ -105,6 +105,41 @@
   }
   footer {
     width: 90%;
+  }
+  /* this is Bonus section extra profile */
+  .review-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .customer-review-top {
+    max-width: 320px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .review-container .review p {
+    max-width: 320px;
+    width: 300px;
+    font-size: 0.9rem;
+  }
+  .review-container .review img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+  }
+  .review {
+    padding: 20px 0;
+    width: 100%;
+    margin: 10px auto;
+  }
+  .review p {
+    margin: 10px auto;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
   }
 }
 

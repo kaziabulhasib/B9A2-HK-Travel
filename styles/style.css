@@ -402,3 +402,37 @@ footer hr {
   font-weight: 300;
   font-size: 1rem;
 }
+
+/* extra section */
+
+.customer-review {
+  max-width: 1170px;
+  margin: 100px auto;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.customer-review-top {
+  max-width: 560px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.review-container .review img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.review {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.review p {
+  text-align: center;
+}
